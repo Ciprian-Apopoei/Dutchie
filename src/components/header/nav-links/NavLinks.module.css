@@ -1,0 +1,21 @@
+.navLink {
+  font-size: 16px;
+  line-height: 16px;
+  font-weight: 600;
+  text-decoration: none;
+  padding: 12px 16px;
+  background-color: transparent;
+  border: 1px solid transparent;
+  border-radius: 8px;
+  color: #30404d;
+  transition: all 0.3s ease-in-out;
+}
+.navLink:hover {
+  background-color: #fff;
+  border: 1px solid #bfccd6;
+}
+.children::after {
+  content: url("/arrow-down.svg");
+  vertical-align: middle;
+  margin-left: 8px;
+}

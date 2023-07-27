@@ -1,0 +1,9 @@
+.text {
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  transform: translate(50%, -50%);
+  color: #8a9ba8;
+  font-size: 14px;
+  line-height: 16px;
+}

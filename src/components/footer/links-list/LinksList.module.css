@@ -1,0 +1,37 @@
+.list_box {
+  min-width: 124px;
+}
+
+.title {
+  color: #fff;
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.category {
+  color: #ebf1f5;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: -3%;
+  font-style: italic;
+  margin-bottom: 10px;
+}
+
+.list {
+  list-style: none;
+}
+.list_item {
+  margin-bottom: 10px;
+}
+.list_link {
+  text-decoration: none;
+  color: #8a9ba8;
+  font-size: 14px;
+  line-height: 16px;
+  transition: all 0.3s ease-in-out;
+}
+.list_link:hover {
+  color: #fff;
+}

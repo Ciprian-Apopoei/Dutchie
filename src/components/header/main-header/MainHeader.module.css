@@ -1,0 +1,10 @@
+.container_inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.wrapper_mainheader {
+  background-color: #ebf1f5;
+  padding: 16px 0;
+}

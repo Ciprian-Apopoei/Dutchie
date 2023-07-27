@@ -1,0 +1,28 @@
+.form_search {
+  position: relative;
+}
+
+.button {
+  background-image: url("/search.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 16px;
+  height: 16px;
+  background-color: transparent;
+  border: none;
+  position: absolute;
+  top: 50%;
+  left: 16px;
+  transform: translate(0, -50%);
+}
+
+.search {
+  padding: 14px 48px;
+  font-size: 14px;
+  border: 1px solid #d8e1e8;
+  border-radius: 8px;
+  width: 328px;
+}
+.search:focus-visible {
+  outline: none;
+}

@@ -1,0 +1,28 @@
+.list_box {
+  min-width: 153px;
+}
+.title {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 600;
+  color: #394b59;
+  margin-bottom: 8px;
+}
+.divider {
+  background-color: #d8e1e8;
+  margin-bottom: 8px;
+}
+
+.list {
+  list-style: none;
+}
+.list_item {
+  margin-bottom: 8px;
+}
+
+.list_link {
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 22px;
+  color: #30404d;
+}

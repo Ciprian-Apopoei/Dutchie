@@ -1,0 +1,10 @@
+.subtitle {
+  color: #8a9ba8;
+  font-size: 14px;
+  font-weight: 400;
+  margin-bottom: 8px;
+}
+.wrapper_filters {
+  display: flex;
+  gap: 16px;
+}

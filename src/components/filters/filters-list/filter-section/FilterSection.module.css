@@ -1,0 +1,31 @@
+.filter_section .filter_button {
+  color: #000;
+  font-size: 16px;
+  font-weight: 700;
+  width: 198px;
+  height: 29px;
+  border-radius: 0;
+  background-color: transparent;
+  border-bottom: 1px solid #e1e8ed;
+}
+
+.wrapper_options {
+  display: flex;
+  gap: 16px;
+  flex-direction: column;
+  margin-top: 16px;
+  opacity: 1;
+  height: auto;
+  transition: height 0.2s ease-in-out, opacity 0.2s ease-in-out;
+}
+
+.wrapper_options a {
+  text-decoration: none;
+  padding: 12px 16px;
+  border-radius: 8px;
+  background: #f5f8fa;
+  color: #30404d;
+  font-size: 14px;
+  font-weight: 400;
+  width: fit-content;
+}

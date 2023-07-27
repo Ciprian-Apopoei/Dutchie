@@ -1,0 +1,10 @@
+.filter_applied {
+  width: 804px;
+}
+
+.wrapper_top {
+  padding-top: 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}

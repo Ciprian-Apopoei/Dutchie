@@ -1,0 +1,22 @@
+.hero_header {
+  background-color: #f5f8fa;
+  padding: 92px 0 122px 0;
+}
+.left_side {
+  margin: auto 0;
+}
+
+.left_side h1 {
+  color: #8a9ba8;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.strong {
+  color: #394b59;
+}
+.paragraph {
+  color: #8a9ba8;
+  font-size: 20px;
+  line-height: 32px;
+  margin-bottom: 28px;
+}

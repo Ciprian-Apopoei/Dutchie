@@ -1,0 +1,15 @@
+.contact {
+  padding: 64px 0;
+}
+.contact h2 {
+  margin-bottom: 24px;
+}
+.contact h5 {
+  line-height: 24px;
+  color: #8a9ba8;
+  margin-bottom: 40px;
+}
+.container_inner {
+  display: flex;
+  gap: 34px;
+}

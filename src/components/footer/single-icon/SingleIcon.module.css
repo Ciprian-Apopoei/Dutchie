@@ -1,0 +1,9 @@
+.icon {
+  padding: 8px;
+  background-color: #394b59;
+  border-radius: 50%;
+  line-height: 7px;
+}
+.icon img {
+  display: inline-flex;
+}

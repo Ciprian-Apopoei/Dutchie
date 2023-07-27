@@ -1,0 +1,12 @@
+.wrapper_preheader {
+  background-color: #394b59;
+  padding: 8px 0;
+}
+.container_inner {
+  display: flex;
+  justify-content: space-between;
+}
+.wrapper_btns {
+  display: flex;
+  gap: 24px;
+}

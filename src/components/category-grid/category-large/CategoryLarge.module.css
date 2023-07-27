@@ -1,0 +1,14 @@
+.category_large {
+  background-color: #8a9ba8;
+  max-width: 338px;
+  min-height: 384px;
+  padding: 24px 32px;
+  border-radius: 12px;
+}
+.category_large p {
+  font-size: 20px;
+  line-height: 32px;
+  font-weight: 300;
+  color: #ebf1f5;
+  margin-bottom: 16px;
+}

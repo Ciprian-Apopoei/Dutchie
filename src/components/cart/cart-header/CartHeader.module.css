@@ -1,0 +1,18 @@
+.cart_header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 24px;
+}
+.title {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+.title h5 {
+  color: #394b59;
+  font-size: 24px;
+  font-weight: 600;
+}
+.cart_header button {
+  padding: 16px 24px;
+}

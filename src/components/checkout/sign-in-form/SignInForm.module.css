@@ -1,0 +1,15 @@
+.sign_in_form {
+  width: 527px;
+}
+.sign_in_form h5 {
+  color: #394b59;
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 24px;
+}
+
+.wrapper_sign_in {
+  border-radius: 8px;
+  border: 1px solid #d8e1e8;
+  background: #fff;
+}

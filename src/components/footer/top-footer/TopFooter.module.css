@@ -1,0 +1,16 @@
+.top_footer {
+  background-color: #30404d;
+  padding-top: 56px;
+  padding-bottom: 64px;
+}
+
+.wrapper_list_box {
+  display: flex;
+  gap: 60px;
+  padding-bottom: 50px;
+}
+
+.wrapper_social {
+  display: flex;
+  gap: 138px;
+}

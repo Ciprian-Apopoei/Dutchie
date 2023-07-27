@@ -1,0 +1,14 @@
+.banner {
+  padding-top: 93px;
+  background-color: #f5f8fa;
+  overflow: hidden;
+}
+
+.banner_inner {
+  display: flex;
+  justify-content: space-between;
+}
+
+.banner_inner img {
+  margin-bottom: -10px;
+}

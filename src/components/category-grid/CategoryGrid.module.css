@@ -1,0 +1,14 @@
+.CategoryGrid {
+  padding: 56px 0;
+}
+.container_inner {
+  display: flex;
+  gap: 32px;
+}
+
+.col_2,
+.col_3 {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}

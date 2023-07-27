@@ -1,0 +1,12 @@
+.product_details_wrapper {
+  margin-bottom: 57px;
+}
+
+.container_inner {
+  display: flex;
+  gap: 40px;
+}
+.left_side {
+  width: 525px;
+  border: 1px solid #bfccd6;
+}

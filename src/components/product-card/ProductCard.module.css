@@ -1,0 +1,76 @@
+.product_card {
+  border: 1px solid #d8e1e8;
+  border-radius: 8px;
+  width: 246px;
+  display: inline-block;
+}
+.card_top {
+  position: relative;
+  height: 173px;
+  background-color: #fff;
+  text-align: center;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  overflow: hidden;
+}
+.card_top img {
+  position: relative;
+  top: 50%;
+  transform: translate(0, -50%);
+  width: 100%;
+  height: auto;
+}
+.discount {
+  position: absolute;
+  bottom: 16px;
+  left: 16px;
+  background-color: #8a9ba8;
+  padding: 4px 8px;
+  color: #fff;
+  border-radius: 4px;
+  font-size: 14px;
+  line-height: 14px;
+  font-weight: 600;
+}
+.card_body {
+  background-color: #fff;
+  padding: 16px 20px 20px 20px;
+  border-top: 1px solid #d8e1e8;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+.card_title {
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 600;
+  color: #8a9ba8;
+  transition: all 0.3s ease-in-out;
+}
+.card_title:hover {
+  color: #394b59;
+}
+
+.card_bottom {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.original_price {
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 400;
+  color: #8a9ba8;
+  margin-right: 5px;
+}
+.current_price {
+  font-size: 24px;
+  font-weight: 600;
+  color: #394b59;
+}
+.sup {
+  font-size: 20px;
+}
+.dollar {
+  font-size: 18px;
+}

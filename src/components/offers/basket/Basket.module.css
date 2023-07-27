@@ -1,0 +1,36 @@
+.wrapper_top {
+  position: relative;
+}
+.wrapper_top a {
+  position: absolute;
+  bottom: 12px;
+  right: 12px;
+  background-color: #fff;
+}
+.wrapper_bottom {
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+}
+.wrapper_bottom p,
+.divider {
+  font-size: 16px;
+  font-weight: 400;
+  color: #758796;
+  margin-top: 5px;
+}
+.divider {
+  color: #bfccd6;
+  margin: 0 8px;
+}
+.currency {
+  color: #394b59;
+  font-size: 12px;
+  font-weight: 800;
+}
+.wrapper_bottom .price {
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: -3%;
+  color: #394b59;
+}

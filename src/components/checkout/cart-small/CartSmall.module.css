@@ -1,0 +1,27 @@
+.cart_small {
+  width: 339px;
+}
+.cart_small_header {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 24px;
+}
+.cart_small_header h5 {
+  color: #394b59;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.wrapper_cart_small {
+  border-radius: 12px;
+  border: 1px solid #ced9e0;
+  background: #e5eaee;
+}
+.wrapper_cart_items {
+  padding: 8px;
+  background-color: #ced9e0;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}

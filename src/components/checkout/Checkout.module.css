@@ -1,0 +1,8 @@
+.container_inner {
+  display: flex;
+  gap: 33px;
+  justify-content: space-between;
+  margin-top: -77px;
+  position: relative;
+  z-index: 3;
+}

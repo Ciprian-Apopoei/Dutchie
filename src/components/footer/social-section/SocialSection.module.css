@@ -1,0 +1,15 @@
+.social_box {
+  color: #fff;
+}
+.social_box h3 {
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+.social_box p {
+  color: #8a9ba8;
+  font-size: 14px;
+  line-height: 16px;
+  margin-bottom: 10px;
+}

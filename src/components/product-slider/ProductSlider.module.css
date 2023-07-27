@@ -1,0 +1,14 @@
+.product_slider {
+  background-color: #ebf1f5;
+  padding: 72px 0;
+  overflow: hidden;
+}
+.product_slider h5 {
+  color: #8a9ba8;
+}
+
+.tab {
+  display: flex;
+  gap: 8px;
+  padding: 30px 0;
+}

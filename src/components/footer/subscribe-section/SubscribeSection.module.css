@@ -1,0 +1,15 @@
+.contact_box {
+  color: #fff;
+}
+.contact_box h3 {
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+.contact_box p {
+  color: #8a9ba8;
+  font-size: 14px;
+  line-height: 16px;
+  margin-bottom: 10px;
+}
