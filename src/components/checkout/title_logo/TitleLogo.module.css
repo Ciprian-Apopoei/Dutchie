@@ -1,0 +1,24 @@
+.wrapper_title_logo {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.divider::after {
+  content: "";
+  display: block;
+  width: 1px;
+  height: 24px;
+  position: relative;
+  top: 0;
+  left: 0;
+  background-color: #dddddd;
+}
+.wrapper_title_logo h5 {
+  margin-bottom: 0;
+  color: #8a9ba8;
+  font-size: 16px;
+  font-style: italic;
+  font-weight: 400;
+}

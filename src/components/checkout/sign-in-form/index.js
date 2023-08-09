@@ -8,7 +8,7 @@ export default function SignInForm() {
     <div className={Styles.sign_in_form}>
       <Title level="h5">Fill it in and you're good to go!</Title>
       <div className={Styles.wrapper_sign_in}>
-        <Stepper />
+        <Stepper active={1} />
         <div className={Styles.wrapper_tabs}>
           <Tabs />
         </div>

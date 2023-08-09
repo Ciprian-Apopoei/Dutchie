@@ -9,7 +9,7 @@ export default function Cart() {
       <Layout>
         <BannerSmall />
         <CartWrapper />
-        <BottomBtn />
+        <BottomBtn href="/checkout/Sign-in" />
       </Layout>
     </>
   );

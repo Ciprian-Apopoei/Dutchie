@@ -6,10 +6,19 @@ import {
   useCartContext,
   cardActionType,
 } from "@/components/context/cartContext";
+import { useEffect } from "react";
 
 export default function CartWrapper() {
   const { state, dispatch } = useCartContext();
   const { cards } = state;
+
+  useEffect(() => {
+    const finalPrice = state.cards.reduce((acc, curr) => {
+      return acc + parseFloat(curr.totalPrice);
+    }, 0);
+
+    dispatch({ type: cardActionType.SET_TOTAL_PRICE, payload: finalPrice });
+  }, [state.cards]);
 
   return (
     <section className={Styles.cart_wrapper}>

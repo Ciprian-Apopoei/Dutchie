@@ -1,0 +1,7 @@
+.icon_title {
+  display: flex;
+  gap: 10px;
+}
+.icon_title h3 {
+  margin-bottom: 24px;
+}

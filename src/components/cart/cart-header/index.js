@@ -11,7 +11,7 @@ export default function CartHeader() {
         <Image src="/shopping-cart.svg" width={24} height={24} alt="img" />
         <Title level="h5">Items in your cart</Title>
       </div>
-      <Link href="/checkout">
+      <Link href="/checkout/Sign-in">
         <Button
           className="btnLarge btnDark text_white"
           text="Proceed to checkout"

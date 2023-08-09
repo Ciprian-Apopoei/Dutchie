@@ -16,7 +16,7 @@ export default function BannerSmall() {
               imgposition="left"
             />
           </Link>
-          <Image src="./bg-icon-2.svg" width={139} height={139} />
+          <Image src="./../bg-icon-2.svg" width={139} height={139} />
         </div>
       </div>
     </section>

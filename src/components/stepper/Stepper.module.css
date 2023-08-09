@@ -31,10 +31,11 @@
   color: #ffffff;
 }
 
-.stepper_item p {
+.stepper_item a {
   color: #8a9ba8;
   font-size: 14px;
   font-weight: 400;
+  text-decoration: none;
 }
 
 .divider {

@@ -6,7 +6,7 @@ export default function BottomFooter() {
   return (
     <div className={Style.bottom_footer}>
       <div className="container">
-        <Logo logo="./logo-footer.svg" />
+        <Logo logo="./../logo-footer.svg" />
         <Copyright />
       </div>
     </div>

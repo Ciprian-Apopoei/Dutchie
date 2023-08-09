@@ -98,6 +98,11 @@ h2 {
   color: #30404d;
   margin-bottom: 20px;
 }
+h3 {
+  color: #394b59;
+  font-size: 20px;
+  font-weight: 600;
+}
 
 h5 {
   font-size: 24px;
@@ -279,3 +284,15 @@ h5 {
 .checkout_tabs .panel.active {
   display: block;
 }
+
+/* .added_to_cart {
+  position: absolute;
+  background: white;
+  padding: 10px 10px;
+  font-size: 12px;
+  border-radius: 8px;
+  border: 1px solid green;
+  color: green;
+  bottom: -17px;
+  right: 0;
+} */

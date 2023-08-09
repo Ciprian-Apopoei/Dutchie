@@ -1,7 +1,7 @@
 import ProductCard from "../product-card";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, EffectFade } from "swiper/modules";
-import Styles from "./SwiperProduct.module.css";
+
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/bundle";

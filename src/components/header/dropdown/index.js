@@ -13,13 +13,9 @@ export default function Dropdown({ dropDownObject, classMenu, show }) {
       <div className="container">
         <div className={`${classMenu} ${Styles.container_inner}`}>
           {dropDownObject &&
-            dropDownObject.map((listItem) => (
-              <DropdownList title="Sweets" item="Candy" />
+            dropDownObject.map((listItem, key) => (
+              <DropdownList title="Sweets" item="Candy" key={key} />
             ))}
-          {/* <DropdownList title="Sweets" item="Candy" />
-          <DropdownList title="Groceries" item="Vegatables" />
-          <DropdownList title="Beverages" item="Wine" />
-          <DropdownList title="Traditional Dutch" item="Cheese" /> */}
         </div>
       </div>
     </div>

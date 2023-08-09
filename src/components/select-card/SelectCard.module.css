@@ -1,0 +1,31 @@
+.select_card {
+  display: flex;
+  justify-content: space-between;
+  border-radius: 8px;
+  border: 1px solid #ced9e0;
+  background: #fff;
+  padding: 12px 16px;
+  align-items: center;
+}
+.card_active {
+  box-shadow: 0px 2px 6px 0px rgba(16, 22, 26, 0.2),
+    0px 1px 1px 0px rgba(16, 22, 26, 0.2), 0px 0px 0px 0px rgba(16, 22, 26, 0.1);
+  border: 1px solid #8a9ba8;
+}
+.img_text {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+.img_text p {
+  color: rgba(0, 0, 0, 0.54);
+  font-family: Fira Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: -0.48px;
+}
+.link_wrapper {
+  text-decoration: none;
+}

@@ -1,5 +1,4 @@
 import Layout from "@/components/layout";
-import Styles from "./ProductListing.module.css";
 import Banner from "@/components/banner";
 import Breadcrumbs from "@/components/breadcrumbs";
 import LayoutProductListing from "@/components/filters/LayoutProductListing";

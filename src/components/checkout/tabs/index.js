@@ -1,5 +1,10 @@
 import React, { useState } from "react";
 import Styles from "./Tabs.module.css";
+import TitleLogo from "../title_logo";
+import SignUPLink from "../sign-up-link";
+import FormStack from "../form-stack";
+import IconTitle from "../icon-title";
+import FormPersonalDetails from "../form-personal-details";
 
 export default function Tabs() {
   const [activeIndex, setActiveIndex] = useState(2);
@@ -26,16 +31,17 @@ export default function Tabs() {
 
       <div className="panels">
         <div className={`panel ${checkActive(1, "active")}`}>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean erat
-            ligula, feugiat at felis vitae, porttitor lacinia quam.
-          </p>
+          <div className={Styles.wrapper_panel_1}>
+            <IconTitle imgsrc="./../user.svg" title="Personal details" />
+            <FormPersonalDetails />
+          </div>
         </div>
         <div className={`panel ${checkActive(2, "active")}`}>
-          <p>
-            Nulla lobortis quis massa quis lobortis. Nullam porta semper lorem,
-            vel efficitur augue rutrum quis. Suspendisse potenti.
-          </p>
+          <div className={Styles.wrapper_panel_2}>
+            <TitleLogo title="members" />
+            <SignUPLink text="Not a member? Don't hesitate to" />
+            <FormStack />
+          </div>
         </div>
       </div>
     </div>

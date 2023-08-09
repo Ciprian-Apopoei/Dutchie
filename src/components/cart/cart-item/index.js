@@ -10,10 +10,11 @@ import ButtonDelete from "@/components/button-delete";
 
 export default function CartItem(props) {
   const { id, img, title, currPrice } = props;
-  const initialCount = 1;
-  const [count, setCount] = useState(initialCount);
+
   const [total, setTotal] = useState(currPrice);
   const { state, dispatch } = useCartContext();
+  const totalCount = state.totalCount;
+  const [count, setCount] = useState(totalCount);
 
   useEffect(() => {
     const finalTotal = parseFloat((count * parseFloat(currPrice)).toFixed(2));
@@ -33,6 +34,10 @@ export default function CartItem(props) {
     }, 0);
 
     dispatch({ type: cardActionType.SET_TOTAL_PRICE, payload: finalPrice });
+
+    const totalCount = count;
+
+    dispatch({ type: cardActionType.SET_TOTAL_COUNT, payload: totalCount });
   }, [count]);
 
   return (

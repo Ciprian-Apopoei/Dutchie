@@ -1,0 +1,22 @@
+.social_btn {
+  color: #30404d;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: -0.48px;
+  text-decoration: none;
+  border-radius: 8px;
+  border: 1px solid #e5eaee;
+  background: #fff;
+  align-items: center;
+  padding: 13px;
+  position: relative;
+  cursor: pointer;
+}
+.social_btn img {
+  position: absolute;
+  left: 13px;
+  top: 50%;
+  transform: translate(0, -50%);
+}

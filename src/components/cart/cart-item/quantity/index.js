@@ -1,6 +1,5 @@
 import Styles from "./Quantity.module.css";
 import Image from "next/image";
-import { useEffect, useState } from "react";
 
 export default function Quantity({ setCount, count }) {
   return (
@@ -8,7 +7,9 @@ export default function Quantity({ setCount, count }) {
       <button
         type="button"
         className={Styles.btn}
-        onClick={() => setCount(count - 1)}
+        onClick={() => {
+          count > 0 ? setCount(count - 1) : setCount(0);
+        }}
       >
         <Image src="/minus-icon.svg" width={16} height={16} alt="icon" />
       </button>

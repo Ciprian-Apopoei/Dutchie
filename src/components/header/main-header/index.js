@@ -1,5 +1,4 @@
 import Logo from "../logo";
-import NavLink from "../nav-link";
 import Search from "../search";
 import User from "../user";
 import Cart from "../cart";
@@ -13,7 +12,7 @@ export default function MainHeader() {
     <div className={Styles.wrapper_mainheader}>
       <div className="container">
         <div className={Styles.container_inner}>
-          <Logo logo="./logo.svg" />
+          <Logo logo="./../logo.svg" />
           <NavLinks />
           <Search />
           <User />

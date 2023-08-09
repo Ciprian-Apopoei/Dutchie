@@ -6,7 +6,7 @@
   left: 0;
   background-color: #fff;
   width: 100%;
-  z-index: 3;
+  z-index: 99;
 }
 .container_inner {
   display: flex;

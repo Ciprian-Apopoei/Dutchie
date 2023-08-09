@@ -1,0 +1,100 @@
+.success_form {
+  width: 527px;
+}
+.success_form h5 {
+  color: #394b59;
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 24px;
+}
+
+.message {
+  display: flex;
+  gap: 8px;
+  padding: 24px 0;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 1px solid #d8e1e8;
+}
+
+.top_img {
+  margin: 0 auto;
+}
+
+.wrapper_content h2 {
+  color: #394b59;
+  text-align: center;
+  font-family: Fira Sans;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -0.48px;
+  margin-bottom: 0;
+}
+.wrapper_content h3 {
+  color: #a7a7a7;
+  text-align: center;
+  font-family: Fira Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; /* 140% */
+  letter-spacing: -0.4px;
+}
+
+.wrapper_success_form {
+  border-radius: 8px;
+  border: 1px solid #d8e1e8;
+  background: #fff;
+}
+
+.wrapper_content {
+  max-width: 328px;
+  margin: 0 auto;
+  padding: 56px 0 82px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+}
+
+.download_btn {
+  color: #fff;
+  font-family: Fira Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 16px; /* 100% */
+  letter-spacing: -0.32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 16px 24px;
+  border-radius: 8px;
+  background: #30404d;
+}
+
+.back_home {
+  text-decoration: none;
+  color: #30404d;
+  font-family: Fira Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 16px; /* 100% */
+  letter-spacing: -0.32px;
+  padding: 16px 50px;
+  border-radius: 8px;
+  background: #e5eaee;
+  margin: 25px auto 0 auto;
+}
+
+.wrapper_title span {
+  color: #394b59;
+  font-family: Fira Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
