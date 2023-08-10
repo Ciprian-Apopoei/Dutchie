@@ -1,7 +1,7 @@
-.payment_form {
+.payment_card_select {
   width: 527px;
 }
-.payment_form h5 {
+.payment_card_select h5 {
   color: #394b59;
   font-size: 24px;
   font-weight: 600;
@@ -13,7 +13,7 @@
   justify-content: space-between;
 }
 
-.wrapper_payment_form {
+.wrapper_payment_card_select {
   border-radius: 8px;
   border: 1px solid #d8e1e8;
   background: #fff;

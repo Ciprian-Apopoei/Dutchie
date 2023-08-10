@@ -1,5 +1,6 @@
 import Styles from "./ButtonDelete.module.css";
 import Image from "next/image";
+import CalcFinalPrice from "@/utils";
 import {
   useCartContext,
   cardActionType,
@@ -10,11 +11,7 @@ export default function ButtonDelete({ id }) {
   const { state, dispatch } = useCartContext();
 
   useEffect(() => {
-    const finalPrice = state.cards.reduce((acc, curr) => {
-      return acc + parseFloat(curr.totalPrice);
-    }, 0);
-
-    dispatch({ type: cardActionType.SET_TOTAL_PRICE, payload: finalPrice });
+    CalcFinalPrice;
   }, [state.cards]);
 
   const handleDelete = (id) => {
@@ -26,13 +23,19 @@ export default function ButtonDelete({ id }) {
     };
   };
 
+  const IconSize = 24;
   return (
     <button
       type="button"
       className={Styles.btn_delete}
       onClick={handleDelete(id)}
     >
-      <Image src="/delete-product.svg" width={24} height={24} alt="icon" />
+      <Image
+        src="/delete-product.svg"
+        width={IconSize}
+        height={IconSize}
+        alt="icon"
+      />
     </button>
   );
 }

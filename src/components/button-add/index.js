@@ -1,8 +1,8 @@
 import Image from "next/image";
 import Link from "next/link";
+import CalcFinalPrice from "@/utils";
 import Styles from "./ButtonAdd.module.css";
 import { useEffect } from "react";
-
 import { useCartContext, cardActionType } from "../context/cartContext";
 
 export default function ButtonAdd(props) {
@@ -11,11 +11,7 @@ export default function ButtonAdd(props) {
   const { state, dispatch } = context;
 
   useEffect(() => {
-    const finalPrice = state.cards.reduce((acc, curr) => {
-      return acc + parseFloat(curr.totalPrice);
-    }, 0);
-
-    dispatch({ type: cardActionType.SET_TOTAL_PRICE, payload: finalPrice });
+    CalcFinalPrice;
   }, [state.cards]);
 
   const handleClick = (e) => {
@@ -33,14 +29,12 @@ export default function ButtonAdd(props) {
         return acc + parseFloat(curr.totalPrice);
       }, 0);
       dispatch({ type: cardActionType.SET_TOTAL_PRICE, payload: finalPrice });
-
-      alert("ADDED TO CART");
     }
   };
-
+  const IconSize = 16;
   return (
     <Link className={Styles.button_add} href="#" onClick={handleClick}>
-      <Image src={imgsrc} width={16} height={16} alt="plus" />
+      <Image src={imgsrc} width={IconSize} height={IconSize} alt="plus" />
     </Link>
   );
 }

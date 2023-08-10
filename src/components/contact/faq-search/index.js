@@ -4,6 +4,7 @@ import Title from "@/components/title";
 import ButtonContact from "../button-contact";
 
 export default function FaqSearch() {
+  const IconSize = 16;
   return (
     <div className={Styles.faq_search}>
       <Image src="/icon.svg" width={64} height={64} alt="icon" />
@@ -15,8 +16,8 @@ export default function FaqSearch() {
         <Image
           className={Styles.search_icon}
           src="./search.svg"
-          width={16}
-          height={16}
+          width={IconSize}
+          height={IconSize}
         />
         <input type="text" placeholder="e.g. When will my order arrive?" />
         <Image

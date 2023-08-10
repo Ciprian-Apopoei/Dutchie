@@ -4,12 +4,20 @@ import Image from "next/image";
 import Link from "next/link";
 
 export default function SuccessPurchese() {
+  const IconSizeBig = 24;
+  const IconSizeSmall = 16;
+
   return (
     <div className={Styles.success_form}>
       <Title level="h5">Fill it in and you're good to go!</Title>
       <div className={Styles.wrapper_success_form}>
         <div className={Styles.message}>
-          <Image src="../succes-check.svg" width={24} height={24} alt="icon" />
+          <Image
+            src="../succes-check.svg"
+            width={IconSizeBig}
+            height={IconSizeBig}
+            alt="icon"
+          />
           <p>Payment was succesfull</p>
         </div>
         <div className={Styles.wrapper_content}>
@@ -26,7 +34,12 @@ export default function SuccessPurchese() {
             🚚
           </Title>
           <button type="button" className={Styles.download_btn}>
-            <Image src="../receipt.svg" width={16} height={16} alt="icon" />
+            <Image
+              src="../receipt.svg"
+              width={IconSizeSmall}
+              height={IconSizeSmall}
+              alt="icon"
+            />
             Download or print your bon
           </button>
           <Link className={Styles.back_home} href="/">

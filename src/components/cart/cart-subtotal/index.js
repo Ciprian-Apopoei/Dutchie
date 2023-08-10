@@ -8,7 +8,6 @@ export default function CartSubtotal({ subtotal }) {
       <p className={Styles.price}>
         <span className={Styles.currency}>$ </span>
         {subtotal}
-        <sup></sup>
       </p>
     </div>
   );

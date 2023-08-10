@@ -13,7 +13,6 @@ export default function NavLink({ isLink, text, style, handleClick }) {
           {text}
         </button>
       )}
-      {/* <button className={style} onClick={() => handleClick(text)}>{text}</button> */}
     </>
   );
 }

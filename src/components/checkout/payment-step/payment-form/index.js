@@ -5,11 +5,11 @@ import IconTitle from "../../icon-title";
 import ButtonBack from "@/components/button-back";
 import SelectCard from "@/components/select-card";
 
-export default function PaymentForm() {
+export default function PaymentCardSelect() {
   return (
-    <div className={Styles.payment_form}>
+    <div className={Styles.payment_card_select}>
       <Title level="h5">Fill it in and you're good to go!</Title>
-      <div className={Styles.wrapper_payment_form}>
+      <div className={Styles.wrapper_payment_card_select}>
         <Stepper active={3} />
         <div className={Styles.wrapper_content}>
           <ButtonBack

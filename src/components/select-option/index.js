@@ -4,11 +4,9 @@ import Title from "../title";
 export default function SelectOption({ title, description, active }) {
   return (
     <div
-      className={
-        active === "active"
-          ? `${Styles.select_option} ${Styles.select_active}`
-          : `${Styles.select_option}`
-      }
+      className={`${Styles.select_option} ${
+        active === "active" ? `${Styles.select_active}` : ""
+      } `}
     >
       <div className={Styles.select_text}>
         <Title level="h6">{title}</Title>
