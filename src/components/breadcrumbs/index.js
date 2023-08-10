@@ -6,7 +6,6 @@ export default function Breadcrumbs() {
   const router = useRouter();
   const { pathname } = router;
 
-  console.log("pathname", router);
   const pathSegments = pathname.split("/").filter((segment) => segment !== "");
 
   function getTag(segment) {

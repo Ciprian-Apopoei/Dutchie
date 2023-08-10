@@ -2,10 +2,11 @@ import Styles from "./ContactForm.module.css";
 import Image from "next/image";
 
 export default function ContactForm({ message }) {
+  const IconSize = 32;
   return (
     <div className={Styles.contact_form}>
       <div className={Styles.message}>
-        <Image src="/reply-icon.svg" width={32} height={32} />
+        <Image src="/reply-icon.svg" width={IconSize} height={IconSize} />
         <span>{message}</span>
       </div>
       <div className={Styles.wrapper_inputs}>

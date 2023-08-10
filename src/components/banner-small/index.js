@@ -4,6 +4,7 @@ import Button from "../button";
 import Link from "next/link";
 
 export default function BannerSmall() {
+  const IconSize = 139;
   return (
     <section className={Styles.banner_small}>
       <div className="container">
@@ -16,7 +17,7 @@ export default function BannerSmall() {
               imgposition="left"
             />
           </Link>
-          <Image src="./../bg-icon-2.svg" width={139} height={139} />
+          <Image src="./../bg-icon-2.svg" width={IconSize} height={IconSize} />
         </div>
       </div>
     </section>

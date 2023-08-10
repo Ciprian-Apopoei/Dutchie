@@ -5,10 +5,16 @@ import Button from "@/components/button";
 import Link from "next/link";
 
 export default function CartHeader() {
+  const IconSize = 24;
   return (
     <div className={Styles.cart_header}>
       <div className={Styles.title}>
-        <Image src="/shopping-cart.svg" width={24} height={24} alt="img" />
+        <Image
+          src="/shopping-cart.svg"
+          width={IconSize}
+          height={IconSize}
+          alt="img"
+        />
         <Title level="h5">Items in your cart</Title>
       </div>
       <Link href="/checkout/Sign-in">

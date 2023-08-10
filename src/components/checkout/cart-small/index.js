@@ -2,6 +2,7 @@ import Styles from "./CartSmall.module.css";
 import Title from "@/components/title";
 import Image from "next/image";
 import ItemSmall from "./item-small";
+import CalcFinalPrice from "@/utils";
 import {
   useCartContext,
   cardActionType,
@@ -13,19 +14,20 @@ export default function CartSmall() {
   const { cards } = state;
 
   useEffect(() => {
-    const finalPrice = state.cards.reduce((acc, curr) => {
-      return acc + parseFloat(curr.totalPrice);
-    }, 0);
-
-    dispatch({ type: cardActionType.SET_TOTAL_PRICE, payload: finalPrice });
+    CalcFinalPrice;
   }, [state.cards]);
 
   let allTotal = (Number(state.totalPrice.toFixed(2)) + 4.9).toFixed(2);
-
+  const IconSize = 24;
   return (
     <div className={Styles.cart_small}>
       <div className={Styles.cart_small_header}>
-        <Image src="/shopping-cart.svg" width={24} height={24} alt="icon" />
+        <Image
+          src="/shopping-cart.svg"
+          width={IconSize}
+          height={IconSize}
+          alt="icon"
+        />
         <Title level="h5">Your cart ({state.cards.length} items)</Title>
       </div>
       <div className={Styles.wrapper_cart_small}>
@@ -45,7 +47,7 @@ export default function CartSmall() {
             <div className={Styles.shipping}>
               <p className={Styles.shipping_text}>Shipping</p>
               <p className={Styles.shipping_price}>
-                <span>$</span> 4.9
+                <span>$</span> 4.90
               </p>
             </div>
           </div>

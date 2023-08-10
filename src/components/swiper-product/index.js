@@ -16,9 +16,10 @@ export default function SwiperProduct({ cards }) {
         slidesPerView={4}
         navigation
       >
-        {cards.map((card, index) => (
-          <SwiperSlide key={index}>
+        {cards.map((card) => (
+          <SwiperSlide>
             <ProductCard
+              key={card.id}
               id={card.id}
               img={card.img}
               title={card.name}

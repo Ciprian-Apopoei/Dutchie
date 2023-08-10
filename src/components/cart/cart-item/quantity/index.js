@@ -2,6 +2,7 @@ import Styles from "./Quantity.module.css";
 import Image from "next/image";
 
 export default function Quantity({ setCount, count }) {
+  const IconSize = 16;
   return (
     <div className={Styles.quantity}>
       <button
@@ -11,7 +12,12 @@ export default function Quantity({ setCount, count }) {
           count > 0 ? setCount(count - 1) : setCount(0);
         }}
       >
-        <Image src="/minus-icon.svg" width={16} height={16} alt="icon" />
+        <Image
+          src="/minus-icon.svg"
+          width={IconSize}
+          height={IconSize}
+          alt="icon"
+        />
       </button>
 
       <p>
@@ -23,7 +29,12 @@ export default function Quantity({ setCount, count }) {
         className={Styles.btn}
         onClick={() => setCount(count + 1)}
       >
-        <Image src="/plus-icon.svg" width={16} height={16} alt="icon" />
+        <Image
+          src="/plus-icon.svg"
+          width={IconSize}
+          height={IconSize}
+          alt="icon"
+        />
       </button>
     </div>
   );

@@ -4,17 +4,13 @@ import Styles from "./Dropdown.module.css";
 export default function Dropdown({ dropDownObject, classMenu, show }) {
   return (
     <div
-      className={
-        show
-          ? `${Styles.wrapper_dropdown} ${Styles.show}`
-          : `${Styles.wrapper_dropdown}`
-      }
+      className={` ${Styles.wrapper_dropdown} ${show ? `${Styles.show}` : ""}`}
     >
       <div className="container">
         <div className={`${classMenu} ${Styles.container_inner}`}>
           {dropDownObject &&
-            dropDownObject.map((listItem, key) => (
-              <DropdownList title="Sweets" item="Candy" key={key} />
+            dropDownObject.map((listItem) => (
+              <DropdownList title="Sweets" item="Candy" />
             ))}
         </div>
       </div>
